@@ -25,6 +25,8 @@
 		ED60396922A7DD5F00646790 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED60396822A7DD5F00646790 /* GoogleService-Info.plist */; };
 		ED815F3622A7ED2E00317280 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED815F3522A7ED2E00317280 /* LoginVC.swift */; };
 		ED815F3822A7ED6200317280 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED815F3722A7ED6200317280 /* RegisterVC.swift */; };
+		EDC1B5EE22AB1162008CFFD2 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1B5EC22AB1162008CFFD2 /* ForgotPasswordVC.swift */; };
+		EDC1B5EF22AB1162008CFFD2 /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC1B5ED22AB1162008CFFD2 /* ForgotPasswordVC.xib */; };
 		EDDCF8D922A7203600BEBF9E /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDCF8D822A7203600BEBF9E /* LoginStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,8 @@
 		ED60396822A7DD5F00646790 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED815F3522A7ED2E00317280 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		ED815F3722A7ED6200317280 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		EDC1B5EC22AB1162008CFFD2 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		EDC1B5ED22AB1162008CFFD2 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
 		EDDCF8D822A7203600BEBF9E /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +114,7 @@
 		ED09EE1722A5521C00E5D3B3 /* Artable */ = {
 			isa = PBXGroup;
 			children = (
+				EDC1B5EB22AB1123008CFFD2 /* xibs */,
 				ED815F3422A7ECA300317280 /* Storyboards */,
 				ED815F3322A7EC9C00317280 /* Model */,
 				ED815F3222A7EC8A00317280 /* View */,
@@ -185,6 +190,15 @@
 				ED09EE2122A5521E00E5D3B3 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EDC1B5EB22AB1123008CFFD2 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				EDC1B5EC22AB1162008CFFD2 /* ForgotPasswordVC.swift */,
+				EDC1B5ED22AB1162008CFFD2 /* ForgotPasswordVC.xib */,
+			);
+			path = xibs;
 			sourceTree = "<group>";
 		};
 		F21B0722149A14B8D4E3F839 /* Pods */ = {
@@ -285,6 +299,7 @@
 				ED09EE2022A5521E00E5D3B3 /* Assets.xcassets in Resources */,
 				ED51062722A81878003E616B /* GoogleService-Info.plist in Resources */,
 				ED09EE1E22A5521C00E5D3B3 /* Main.storyboard in Resources */,
+				EDC1B5EF22AB1162008CFFD2 /* ForgotPasswordVC.xib in Resources */,
 				EDDCF8D922A7203600BEBF9E /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED09EE1B22A5521C00E5D3B3 /* HomeVC.swift in Sources */,
+				EDC1B5EE22AB1162008CFFD2 /* ForgotPasswordVC.swift in Sources */,
 				ED815F3822A7ED6200317280 /* RegisterVC.swift in Sources */,
 				ED09EE1922A5521C00E5D3B3 /* AppDelegate.swift in Sources */,
 				ED11244C22AABAF3000F0272 /* Extension.swift in Sources */,
